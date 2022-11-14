@@ -5,11 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a0c1056-27c6-4e9d-a176-1e2d1f2d4af5" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/web/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/web/CompanyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/web/FinanceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/model/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/model/Dividend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/model/ScrapResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/model/constants/Month.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/persist/CompanyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/persist/DividendRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/persist/entity/CompanyEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/persist/entity/DividendEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/scraper/Scraper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/scraper/YahooFinanceScraper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/service/CompanyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dayone/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dayone/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dayone/web/CompanyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dayone/web/CompanyController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +43,11 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="StockDividend" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="StockDividend" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -41,6 +58,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -67,14 +86,25 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Project",
+    "last_opened_file_path": "C:/Users/mansa/OneDrive/바탕 화면/bootcamp/StockDividend",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "spring.configuration.checksum": "1e8f8d63f4ab86a6f1750bb0eb242e32"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="StockDividend.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dayone.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -85,6 +115,8 @@
       <updated>1667901725886</updated>
       <workItem from="1667901727574" duration="2033000" />
       <workItem from="1667903997662" duration="5584000" />
+      <workItem from="1668385463420" duration="2824000" />
+      <workItem from="1668388326047" duration="8230000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1667904129983</created>
